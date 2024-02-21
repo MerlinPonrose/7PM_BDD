@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 				plugin= {"pretty","html:target/cucumber"},
 	tags= {"@sanity"},
 	monochrome=true,
-	dryRun=true)
+	dryRun=false)
 public class TestRunner {
 
 }
