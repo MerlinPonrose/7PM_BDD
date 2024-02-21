@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="C:\\neworkspace\\BDDFramework_Jan\\src\\test\\java\\com\\bdd\\featurefile",
 				glue="com.bdd.stepdefinition",
-				plugin= {"pretty","html:target/cucumber","json:target/cucumberr"},
+				plugin= {"pretty","html:target/cucumber","json:target/cucumberr.json"},
 	tags= {"@sanity"},
 	monochrome=true,
 	dryRun=false)
